@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0403DF82DD76C7D0081BEDC /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0403DF72DD76C7D0081BEDC /* TaskListViewController.swift */; };
 		D0C5F5E12DD75D27007F98A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C5F5E02DD75D27007F98A0 /* AppDelegate.swift */; };
 		D0C5F5E32DD75D27007F98A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C5F5E22DD75D27007F98A0 /* SceneDelegate.swift */; };
 		D0C5F5E82DD75D27007F98A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C5F5E62DD75D27007F98A0 /* Main.storyboard */; };
-		D0C5F5F02DD75D29007F98A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C5F5EE2DD75D29007F98A0 /* LaunchScreen.storyboard */; };
 		D0C5F6032DD762F8007F98A0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C5F6022DD762F8007F98A0 /* Task.swift */; };
+		D0C5F60C2DD766AC007F98A0 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C5F60B2DD766AC007F98A0 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0403DF72DD76C7D0081BEDC /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		D0C5F5DD2DD75D27007F98A0 /* TaskOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C5F5E02DD75D27007F98A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0C5F5E22DD75D27007F98A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0C5F5E72DD75D27007F98A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0C5F5EF2DD75D29007F98A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0C5F6022DD762F8007F98A0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D0C5F60B2DD766AC007F98A0 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -86,7 +88,7 @@
 		D0C5F6002DD75F97007F98A0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D0C5F5EE2DD75D29007F98A0 /* LaunchScreen.storyboard */,
+				D0403DF72DD76C7D0081BEDC /* TaskListViewController.swift */,
 				D0C5F5E62DD75D27007F98A0 /* Main.storyboard */,
 			);
 			path = Controllers;
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D0C5F6022DD762F8007F98A0 /* Task.swift */,
+				D0C5F60B2DD766AC007F98A0 /* TaskManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C5F5F02DD75D29007F98A0 /* LaunchScreen.storyboard in Resources */,
 				D0C5F5E82DD75D27007F98A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +180,8 @@
 			files = (
 				D0C5F6032DD762F8007F98A0 /* Task.swift in Sources */,
 				D0C5F5E12DD75D27007F98A0 /* AppDelegate.swift in Sources */,
+				D0403DF82DD76C7D0081BEDC /* TaskListViewController.swift in Sources */,
+				D0C5F60C2DD766AC007F98A0 /* TaskManager.swift in Sources */,
 				D0C5F5E32DD75D27007F98A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,14 +195,6 @@
 				D0C5F5E72DD75D27007F98A0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0C5F5EE2DD75D29007F98A0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0C5F5EF2DD75D29007F98A0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
