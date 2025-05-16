@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+struct Task {
+    
+    var id: UUID
+    var title: String
+    var description: String?
+    var dueDate: Date?
+    var isCompleted: Bool
+    var priority: Priority
+    var category: String
+    
+    enum Priority: Int {
+        case low, medium, high
+    }
+}
